@@ -1,0 +1,35 @@
+
+public class Review {
+
+	public static void main(String[] args) {
+		int number = 10;
+		
+		System.out.println("Number Before Adding Five Times: " + number);
+		
+		number = number + 1;
+		number = number + 1;
+		number = number + 1;
+		number = number + 1;
+		number = number + 1;
+
+		
+		System.out.println("Number After Adding Five Times: " + number);
+		
+		
+		addOneFiveTimes();
+		
+	}
+	
+	public static void addOneFiveTimes() {
+		int number = 10;
+		
+		System.out.println("\n" + number);
+
+		for(int i = 0; i < 5; i++) {
+			
+			number = number + 1;
+			System.out.println(number);
+		}
+	}
+
+}
